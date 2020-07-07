@@ -19,6 +19,11 @@ body{
     padding-bottom: 50px;
 }
 
+#timeline-header{
+ text-align: center;
+ margin-bottom: 50px;
+}
+
 #main-header{
     background: var(--primary-color);
     padding: 4rem 0;
@@ -38,7 +43,7 @@ body{
 }
 
 #timeline ul{
-    background: var(--secondary-color);
+    background: white;
     padding: 50px 0;
 }
 
@@ -49,7 +54,7 @@ body{
     width: 6px;
     margin: 0 auto;
     padding-top: 50px;
-    background: white;
+    background: var(--secondary-color);
 }
 
 /* Create Boxes for each item on timeline */
@@ -126,14 +131,14 @@ body{
 #timeline ul li:nth-child(odd) div:before{
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #ff5252 transparent transparent;
+    border-color: transparent var(--secondary-color) transparent transparent;
 }
 
 /* Left Side Arrows */
 #timeline ul li:nth-child(even) div:before{
     right: -15px;
     border-width: 8px 0px 8px 16px;
-    border-color: transparent  transparent transparent #ff5252;
+    border-color: transparent  transparent transparent var(--secondary-color);
 }
 
 /* Show Boxes */
@@ -143,7 +148,7 @@ body{
     opacity: 1;
 }
 #timeline ul li.show:after{
-    background: #ff5252;
+    background: var(--secondary-color);
 }
 
 
