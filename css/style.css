@@ -8,14 +8,14 @@ html{
 }
 
 body{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poiret One', cursive;
     background: #fff;
     color: white;
     line-height: 1.6;
 }
 
 .title{
-    font-family: 'Galada', cursive;
+    font-family: 'Poiret One', cursive;
    
 }
 span{
@@ -43,7 +43,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     color: white;
     opacity: 0.8;
     width: 100%;
@@ -127,7 +127,7 @@ p{
 }
 
 .location{
-    background: url('../images/frame.jpg')no-repeat center center/cover;
+    background: rgb(235, 222, 222);
     color: black;
     display: flex;
     flex-direction: column;

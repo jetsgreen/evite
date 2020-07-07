@@ -5,6 +5,7 @@ toggle.addEventListener('click', function(){
     navBar.classList.toggle('active')
 })
 
+// Our Story JS
 const items = document.querySelectorAll
 ('#timeline li');
 
@@ -32,8 +33,14 @@ window.addEventListener('load', run);
 window.addEventListener('resize', run);
 window.addEventListener('scroll', run);
 
+// Photos Page JS
+// const carouselSlide = document.querySelector('.carousel-slide');
+// const carouselImages = document.querySelectorAll('.carousel-slide img');
 
+// const prevBtn = document.querySelector('#prevBtn');
+// const nextBtn = document.querySelector('#nextBtn');
 
-
+// let counter = 1;
+// const size = carouselImages[0.].clientWidth;
 
 
