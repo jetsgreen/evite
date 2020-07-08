@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="stylesheet" href="css/photos.css">
     <link rel="stylesheet" href="css/rsvp.css">
+    <link rel="stylesheet" href="css/photos.css">
     <link rel="stylesheet" href="css/mobile.css">
     <title>Maria-Felix's Wedding</title>
 </head>
@@ -134,7 +135,11 @@
 
         </ul>
     </section>
-
+<section id="photos">
+    <div class="photo-container">
+    <h1 style="font-size: 40px; border-bottom: #ff5252 2px solid;">Engagement Photos Coming Soon!</h1>
+</div>
+</section>
     <section id="rsvp">
         <div class="rsvp-container">
             <div id="rsvp-header">
@@ -142,18 +147,25 @@
             </div>
             <div class="grid-container">
                 <div>
-                    <img src="https://images.unsplash.com/photo-1505765052322-75804bb2e5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+                    <img src="https://images.unsplash.com/photo-1505765052322-75804bb2e5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                        alt="">
                 </div>
                 <div>
                     <form action="">
                         <label for="">Enter Name</label>
                         <input type="text" name="name" id="name">
-                        <label for="">Confirm Plus One</label>
-                        <input type="radio" name="plus" id="">
-                        <label for="">By Yourself</label>
-                        <input type="radio" name="alone" id="">
+                        
+                            <label for="">Confirm Plus One</label>
+                            <input type="radio" name="plus" id="">
+                       
+                            <label for="">By Yourself</label>
+                            <input type="radio" name="alone" id="">
+
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                        
                     </form>
-                    <input type="submit">
+                    <input class="btn" type="submit">
                 </div>
             </div>
         </div>

@@ -56,3 +56,10 @@
         border-color: transparent var(--primary-color) transparent transparent;
     }
 }
+
+/* RSVP Section */
+@media(max-width: 600px){
+    .grid-container{
+        display: block;
+    }
+}

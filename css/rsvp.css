@@ -9,6 +9,7 @@ body{
 }
 #rsvp{
     background-color: rgb(235, 222, 222);
+    margin-bottom: 30px;
 }
 .rsvp-container{
     max-width: 900px;
@@ -27,8 +28,29 @@ input{
     display: block;
     width: 100%;
 }
+textarea{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 7px;
+}
+label{
+    color: red;
+}
+.btn{
+    margin-top: 5px;
+    height: 25px;
+    width: 100%;
+}
+.btn:hover,
+.btn:active{
+    cursor: pointer;
+    opacity: .7;
+}
 .grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
+
