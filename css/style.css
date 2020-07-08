@@ -63,6 +63,16 @@ p{
 .navbar-links a:hover{
     border-bottom: #ff5252 2px solid;
 }
+.countDownContainer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+.info{
+    font-weight: 800;
+    
+}
 
 
 .hero{

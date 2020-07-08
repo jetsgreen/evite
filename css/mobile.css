@@ -31,6 +31,12 @@
     .place-date:nth-child(odd){
         background-color: lightblue;
     }
+    .countDownContainer{
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+        padding: 5px;
+    }
 }
 
 @media(max-width: 900px){

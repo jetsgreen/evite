@@ -40,6 +40,7 @@ body{
     max-width: var(--max-width);
     margin: auto;
     text-align: center;
+    justify-content: space-between;
 }
 
 #timeline ul{

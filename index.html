@@ -44,9 +44,11 @@
 
         </div>
         <div class="content">
+            
             <h1>We're Getting Married!</h1>
             <p>October 4th, 2020</p>
         </div>
+       
     </header>
     <section class="location">
         <div class="names">
@@ -62,11 +64,32 @@
                 </p>
                 <p>Clifton, NJ</p>
             </div>
+            <table class="countDownContainer">
+                <tr class="info">
+                    <td colspan="4">Wedding Date Countdown:</td>
+                </tr>
+                <hr>
+                <tr class="time">
+                    <td id="days">120</td>
+                    <td id="hours">:4</td>
+                    <td id="minutes">:12</td>
+                    <td id="seconds">:22</td>
+                </tr>
+                <tr>
+                    <td>Days</td>
+                    <td>Hrs</td>
+                    <td>Mins</td>
+                    <td>Secs</td>
+                </tr>
+                
+            </table>
+            <hr>
             <div class="place-date">
                 <p>ON</p>
                 <h2>October 4th,</h2>
                 <p>2020</p>
             </div>
+          
         </div>
 
     </section>
@@ -135,11 +158,11 @@
 
         </ul>
     </section>
-<section id="photos">
-    <div class="photo-container">
-    <h1 style="font-size: 40px; border-bottom: #ff5252 2px solid;">Engagement Photos Coming Soon!</h1>
-</div>
-</section>
+    <section id="photos">
+        <div class="photo-container">
+            <h1 style="font-size: 40px; border-bottom: #ff5252 2px solid;">Engagement Photos Coming Soon!</h1>
+        </div>
+    </section>
     <section id="rsvp">
         <div class="rsvp-container">
             <div id="rsvp-header">
@@ -150,20 +173,20 @@
                     <img src="https://images.unsplash.com/photo-1505765052322-75804bb2e5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
                         alt="">
                 </div>
-                <div>
+                <div class="form">
                     <form action="">
                         <label for="">Enter Name</label>
                         <input type="text" name="name" id="name">
                         
                             <label for="">Confirm Plus One</label>
                             <input type="radio" name="plus" id="">
-                       
+
                             <label for="">By Yourself</label>
                             <input type="radio" name="alone" id="">
-
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" cols="30" rows="5"></textarea>
                         
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+
                     </form>
                     <input class="btn" type="submit">
                 </div>
