@@ -1,5 +1,5 @@
 var toggle = document.querySelector('.toggle-button');
-var navBar = document.getElementById('nav-bar');
+var navBar = document.querySelector('.navbar-links');
 
 toggle.addEventListener('click', function(){
     navBar.classList.toggle('active')

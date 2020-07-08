@@ -121,9 +121,13 @@ p{
     background: white;
     border-radius: 10px;
 }
-
+.color{
+    color: red
+}
 .active{
-    display: flex;
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 
 .location{
