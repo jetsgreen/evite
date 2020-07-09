@@ -28,9 +28,9 @@
     .place-date{
         padding: 5px;
     }
-    .place-date:nth-child(odd){
+    /* .place-date:nth-child(odd){
         background-color: lightblue;
-    }
+    } */
     .countDownContainer{
         font-size: 15px;
         text-align: center;
@@ -77,6 +77,6 @@
     }
     img{
         margin-left: 80px;
-        
+
     }
 }
