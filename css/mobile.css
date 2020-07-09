@@ -72,4 +72,11 @@
     .grid-container{
         display: block;
     }
+    form{
+        margin-top: 20px;
+    }
+    img{
+        margin-left: 80px;
+        
+    }
 }
