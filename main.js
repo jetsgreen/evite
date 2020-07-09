@@ -1,9 +1,9 @@
-var toggle = document.querySelector('.toggle-button');
-var navBar = document.querySelector('.navbar-links');
+// var toggle = document.querySelector('.toggle-button');
+// var navBar = document.querySelector('.navbar-links');
 
-toggle.addEventListener('click', function(){
-    navBar.classList.toggle('active')
-})
+// toggle.addEventListener('click', function(){
+//     navBar.classList.toggle('active')
+// })
 
 // Our Story JS
 const items = document.querySelectorAll
