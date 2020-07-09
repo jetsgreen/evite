@@ -37,7 +37,7 @@ window.addEventListener('scroll', run);
 
 function countDown(){
     var now = new Date();
-    var eventDate = new Date(2020, 10, 04);
+    var eventDate = new Date(2020, 09, 04);
 
     var currentTime = now.getTime();
     var eventTime = eventDate.getTime();

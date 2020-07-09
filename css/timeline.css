@@ -18,6 +18,10 @@ body{
     overflow-x: hidden;
     padding-bottom: 50px;
 }
+h3{
+    color: white;
+    
+}
 
 #timeline-header{
  text-align: center;
@@ -73,29 +77,30 @@ body{
     /* Timeline images */
 }
 #met{
-    background: url('https://images.unsplash.com/photo-1505150099521-fde7970bcc3a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80')  no-repeat center center/cover;
+    background: url('../images/met.JPG')  no-repeat center center/cover;
 }
 #boy-girl{
-    background: url('https://images.unsplash.com/photo-1541089404510-5c9a779841fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') no-repeat center center/cover;
+    background: url('../images/girlfriend.JPG') no-repeat center center/cover;
 }
 #trip{
-    background: url('https://images.unsplash.com/photo-1512790941078-1158a9cc3255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=332&q=80') no-repeat center center/cover;
+    background: url('../images/vacation.jpg') no-repeat center center/cover;
 }
 #anniversaty{
-    background: url('https://images.unsplash.com/photo-1455906876003-298dd8c44ec8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=927&q=80') no-repeat center center/cover;
+    background: url('../images/two.jpg') no-repeat center center/cover;
 }
 #moved{
-    background: url('https://images.unsplash.com/photo-1560182949-be08bdd550e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=782&q=80') no-repeat center center/cover;
-}
-#baby-shower{
-    background: url('https://images.unsplash.com/photo-1560182949-be08bdd550e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=782&q=80') no-repeat center center/cover;
-    
+    background: url('../images/movedin.JPG') no-repeat center center/cover;
 }
 #gaby{
-    background: url('https://images.unsplash.com/photo-1551934262-db2d7dd517f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=670&q=80') no-repeat center center/cover;
+    background: url('../images/gaby.JPG') no-repeat center center/cover;
 }
+#baby-shower{
+    background: url('../images/babyshower.JPG') no-repeat center center/cover;
+    
+}
+
 #proposal{
-    background: url('https://images.unsplash.com/photo-1514432433435-ce2c7903dfba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80') no-repeat center center/cover;
+    background: url('../images/proposal.JPG') no-repeat center center/cover;
 }
 /* Right side of timeline */
 
