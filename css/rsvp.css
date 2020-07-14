@@ -13,6 +13,7 @@ body{
     margin-bottom: 30px;
 }
 .rsvp-container{
+   
     max-width: 900px;
     margin: auto;
     padding: 2rem;
@@ -20,6 +21,7 @@ body{
 }
 form{
     height: 470px;
+    width: 100%;
 }
 
 #rsvp-header{
@@ -65,9 +67,10 @@ label{
     opacity: .7;
 }
 .grid-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   padding: 10px;
+   max-width: 800px;
 }
 
