@@ -13,11 +13,12 @@ body{
     margin-bottom: 30px;
 }
 .rsvp-container{
-   
+     
     max-width: 900px;
     margin: auto;
     padding: 2rem;
     text-align: center;
+    max-height: 870px;
 }
 form{
     height: 470px;

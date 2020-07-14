@@ -15,6 +15,7 @@
 
    .navbar-links ul{
         display: flex;
+        flex-direction: row;
         width: 100%;
         text-align: center;
         justify-content: center;
@@ -69,6 +70,7 @@
 
 /* RSVP Section */
 @media(max-width: 600px){
+
     .grid-container{
         display: flex;
         flex-direction: column;
