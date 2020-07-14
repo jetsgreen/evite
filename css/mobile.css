@@ -70,13 +70,14 @@
 /* RSVP Section */
 @media(max-width: 600px){
     .grid-container{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     form{
         margin-top: 20px;
     }
-    img{
-        margin-left: 80px;
-
-    }
+  
 }
