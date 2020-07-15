@@ -29,9 +29,9 @@ form{
     padding: 10px;
 }
 .rsvp-img{
-    opacity: .8;
+    
     height: 400px;
-    width: 270px;
+    width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: center;
