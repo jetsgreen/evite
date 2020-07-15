@@ -38,6 +38,12 @@
         justify-content: center;
         padding: 5px;
     }
+    .hero{
+        background: url('../images/rsvp.JPG') no-repeat center center/cover;
+        height: 100vh;
+        position: relative;
+        color: white
+    }
 
 }
 
