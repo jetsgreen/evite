@@ -51,17 +51,18 @@ p{
     top: 0px;
     padding: 0 30px;
 }
-.navbar-links a{
+.navbarLinks a{
     color: white;
     padding: 10px 20px;
     margin: 0 5px;
     letter-spacing: 3px;
+    text-decoration: none;
 }
 
-.navbar-links ul{
+.navbarLinks ul{
     display: flex;
 }
-.navbar-links a:hover{
+.navbarLinks a:hover{
     border-bottom: #ff5252 2px solid;
 }
 .countDownContainer{
