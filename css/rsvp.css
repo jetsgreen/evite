@@ -18,28 +18,16 @@ body{
     margin: auto;
     padding: 2rem;
     text-align: center;
-    max-height: 870px;
+    max-height: 1000px;
 }
-form{
+/* form{
     height: 470px;
     width: 100%;
 }
 
-#rsvp-header{
-    padding: 10px;
-}
-.rsvp-img{
-    
-    height: 400px;
-    width: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-img{
-    width: 100%;
-   
-}
+
+
+
 input{
     display: block;
     width: 100%;
@@ -66,7 +54,7 @@ label{
 .btn:active{
     cursor: pointer;
     opacity: .7;
-}
+} */
 .grid-container{
    display: flex;
    flex-direction: row;
@@ -74,4 +62,18 @@ label{
    padding: 10px;
    max-width: 800px;
 }
-
+img{
+    width: 100%;
+   
+}
+.rsvp-img{
+    
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#rsvp-header{
+    padding: 10px;
+}
