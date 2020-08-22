@@ -127,14 +127,14 @@ h3{
 }
 
 /* Arrow Base */
-#timeline div:before{
+/* #timeline div:before{
     content: '';
     position: absolute;
     bottom: 5px;
     width: 0;
     height: 0;
     border-style: solid;
-}
+} */
 
 /* Right Side Arrows */
 #timeline ul li:nth-child(odd) div:before{
